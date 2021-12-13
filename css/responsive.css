@@ -1,0 +1,53 @@
+@media(max-width: 767px){
+    .timeline-items::before{
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    .timeline-dot{
+        left: 0;
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        padding:10px;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 0px;
+    }
+      
+}
+
+@media(max-width: 500px){
+    body{
+        background-color: rgb(189, 144, 29);
+    }
+
+    
+    header .navbar-brand i {
+        text-align: center;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    padding:10px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 0px;
+  }
+  
+}
+
+
+
+
+

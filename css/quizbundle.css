@@ -1,0 +1,75 @@
+
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #333031;
+
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --fap : #4b494a;
+  --faps : #414141;
+  --fapss : #3a3a3a;
+  --light-black: #2e2e2ed0;
+  --med-black : #181717de ;
+  --bggradient: linear-gradient(to bottom, #333031, #7e7776);
+  --light-gray: rgba(255, 255, 255, 0.877);
+  --white-smoke: whitesmoke;
+  --gold : #8a8a19;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 6em;
+    padding-top: 20px;
+    width: 40%;
+    height: auto;
+    background-color: rgb(204, 155, 32);
+    box-shadow: 10px 10px 10px #00A9ED;
+    border-radius: 10px;
+    font-family: var(--Sniglet-font);
+    color: var(--white-smoke);
+
+}
+
+.container ul{
+    list-style: none;
+    font-style: var(--Rubik);
+}
+
+.container ul li{
+    margin-bottom: 1em;
+    padding: 2px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.container ul li label{
+    padding: 2px;
+}
+
+
+.container input {
+    display: none;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.container .btn {
+    width: 30%;
+}
