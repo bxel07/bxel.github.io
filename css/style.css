@@ -24,7 +24,7 @@ section {
   --light-black: #2e2e2ed0;
   --med-black : #181717de ;
   --bggradient: linear-gradient(to bottom, #333031, #7e7776);
-  --light-gray: rgba(255, 255, 255, 0.877);
+  --light-gray: rgba(255, 255, 255, 0.575);
   --white-smoke: whitesmoke;
   --gold : #8a8a19;
 }
