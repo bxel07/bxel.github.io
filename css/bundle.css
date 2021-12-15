@@ -90,7 +90,7 @@ header .row .col-md-5 img {
 
 header {
   background: #2e2c2caf;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)) , url(../image/1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)) , url(../image/nav.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

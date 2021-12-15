@@ -30,7 +30,7 @@ section {
 }
 
 header nav{
-  background: rgba(128, 128, 128,0.1);
+  background: rgba(128, 128, 128,0.3);
 }
 
 header a {
@@ -49,14 +49,15 @@ header a {
 }
 
 .dropdown-content a {
-  color: black;
+  color: var(--fapss);
   padding: 12px 16px;
+  color: rgb(223, 167, 27);
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: var(--white-smoke);
 }
 
 .dropdown:hover .dropdown-content {
@@ -73,10 +74,11 @@ header .nav-item {
 
 header .navbar-brand {
   padding-left: 8rem;
+  color: goldenrod;
 }
 
 header .nav-link:hover {
-  color: black;
+  color: goldenrod;
 }
 
 header .row .col-md-12 {
@@ -530,4 +532,56 @@ input[type="Username"].form-control::-webkit-input-placeholder {
   background: rgb(189, 143, 29);
   color: var(--white-smoke);
   transform: scale(1.2);
+}
+
+
+
+/*Responsive*/
+@media(max-width: 767px){
+  .timeline-items::before{
+      left: 7px;
+  }
+  .timeline-item:nth-child(odd){
+      padding-right: 0;
+      text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even){
+      padding-left: 37px;
+  }
+  .timeline-dot{
+      left: 0;
+  }
+
+  .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      padding:10px;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 0px;
+  }
+    
+}
+
+@media(max-width: 500px){
+  body{
+      background-color: rgb(189, 144, 29);
+  }
+
+  
+  header .navbar-brand i {
+      text-align: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  padding:10px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 0px;
+}
+
 }
